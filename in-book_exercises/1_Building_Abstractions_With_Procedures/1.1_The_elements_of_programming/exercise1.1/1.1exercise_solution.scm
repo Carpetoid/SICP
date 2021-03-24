@@ -26,7 +26,8 @@
       ((= b 4) (+ 6 7 a))
       (else 25)) ;it prints 16 since the predicate "(= b 4)" is true
 
-(+ 2 (if (> b a) b a)) ;since the predicate '(> b a)' is true, it returns b, which is then used as an argument (operand)  for the procedure (operator) '+' which then prints 6
+(+ 2 (if (> b a) b a)) ;since the predicate '(> b a)' is true, it returns b,
+;which is then used as an argument (operand)  for the procedure (operator) '+' which then prints 6
 
 (* (cond ((> a b) a)
          ((< a b) b)
