@@ -18,5 +18,7 @@
           (sqrt-iter (improve guess x)
                      x)))
 
-#| This results in infinite recursion since the procedure new-if uses applicative-order unlike if which is a special form that evaluates the first argument (predicate) and then
-determines whether to evaluate the following arguments or not. 
+#| This results in infinite recursion since the procedure new-if uses applicative-order unlike if which is a
+special form that evaluates the first argument (predicate) and then
+determines whether to evaluate the following arguments or not.
+|#
