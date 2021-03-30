@@ -1,2 +1,3 @@
-Each exercise folder will contain PDF files and Scheme files. The scheme files will contain the answers to the in-book exercises written in the PDF files.
-Edit: starting from exercise 1.8. there will no longer be a PDF file and both the questions and answers will be in the scheme file.
+Solutions for SICP 2nd edition in-book exercises. 
+Some exercise folders will contain a PDF file for the question and a Scheme file for the answer, and some folders will contain either a PDF or Scheme file
+with both solutions and questions.
