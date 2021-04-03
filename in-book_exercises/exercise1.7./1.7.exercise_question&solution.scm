@@ -21,7 +21,7 @@
 (define (sqrt x)
   (sqrt-iter 1.0 x))
 
-#| Exercise 1.7. question:
+#| Exercise 1.7. problem:
 The good-enough? test used in computing square roots will not be very effective
 for finding the square roots of very small numbers. Also, in real computers, arithmetic
 operations are almost always performed with limited precision. This makes our test inadequate
@@ -31,7 +31,7 @@ guess changes from one iteration to the next and to stop when the change is a ve
 of the guess. Design a square-root procedure that uses this kind of end test. Does this work better
 for small and large numbers? |#
 
-; answers:
+; Solutions:
 
 #| Small numbers: When it comes to finding square roots of small numbers, the tolerance of 0.001 is just too big, which basically means
 that whatever guess (< (abs (- (square guess) x)) 0.001)) tells us is good enough
