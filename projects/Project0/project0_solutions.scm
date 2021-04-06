@@ -61,4 +61,13 @@ c
 ; Value: 4
 
 
+; PART 3:
 
+; Normal print:
+(define abs1 (lambda (a) (if (> a 0) (- a))))
+
+; Pretty print:
+(define abs
+  (lambda (a)
+    (if (> a 0)
+        (- a))))
