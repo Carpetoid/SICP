@@ -74,8 +74,18 @@
 
 ; part 1 of problem 1 visualizes this.
 
-; 3. (define (h n) (A 2 n)), (h n): 2^2^2^2^2... where the number of times 2 is raised to 2 is n times for n > 1
+; 3. (define (h n) (A 2 n)), (h n):
 
-(trace A)
-(A 2 4)
+;(trace A)
+;(A 2 3)
 
+; (A 2 3)
+; (A 2 2)
+; (A 2 1)
+;
+
+(define (test x y)
+  (if y y (test (- x 1) y))
+  )
+(trace test)
+(test 10 #f)
