@@ -18,7 +18,7 @@
         (* z z)))))
 
 
-(sum_sqr_larger2 1 2 3)
+
 
 
                     
